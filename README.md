@@ -46,6 +46,7 @@ Your work will be automatically submitted when you push to your GitHub Classroom
 - [MongoDB University](https://university.mongodb.com/)
 - [MongoDB Node.js Driver](https://mongodb.github.io/node-mongodb-native/)
 
+ **insert_books.js**
 db.books.insertMany([
   {
     title: "The Pragmatic Programmer",
@@ -149,9 +150,8 @@ db.books.insertMany([
   }
 ]);
 
-
+  **queries.js**
 // ========== CRUD OPERATIONS ==========
-
 // 1. Find all books in a specific genre
 db.books.find({ genre: "Fiction" });
 
